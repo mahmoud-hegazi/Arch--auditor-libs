@@ -1,0 +1,12 @@
+# Ignore system C/C++ libraries from Termux
+libc.so
+libm.so
+libdl.so
+liblog.so
+libpthread.so
+librt.so
+
+# Ignore temporary and log files
+*.tmp
+*.log
+.DS_Store
